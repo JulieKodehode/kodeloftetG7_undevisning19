@@ -7,5 +7,64 @@
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <form>
+        <!-- Recive a name -->
+        <section class="section">
+          <div class="step step1">
+            <!-- Top -->
+            <div aria-hidden="true"></div>
+
+            <!-- Middle -->
+            <div class="inputContainer">
+              <label for="step1">Write your name</label>
+              <input type="text" name="step1" id="step1"> 
+            </div>
+
+            <!-- Bottom -->
+            <div class="buttonContainer">
+              <div aria-hidden="true"></div>
+              <button>Next</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Recive a contact information -->
+        <section class="section">
+          <div class="step step2">
+            <!-- Top -->
+            <div aria-hidden="true"></div>
+
+            <!-- Middle -->
+            <div class="inputContainer">
+              <label for="step2">Write your email</label>
+              <input type="email" name="step2" id="step2">
+            </div>
+
+            <!-- Bottom -->
+            <div class="buttonContainer">
+              <button>Previous</button>
+              <button>Next</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Write a message -->
+        <section class="section">
+          <div>
+            <label for="step3">Write a message</label>
+            <textarea name="step3" id="step3" cols="30" rows="10"></textarea>
+          </div> 
+        </section>
+
+        <!-- Thank you for contributing -->
+        <section class="section">
+          <div>
+            <h3>Thank you for submiting form!</h3>
+          </div>
+        </section>
+      </form>
+    </main>
+  </body>
 </html>
