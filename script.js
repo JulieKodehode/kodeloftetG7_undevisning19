@@ -1,0 +1,1 @@
+import {nextButton, previousButton} from "./eventListner.js";

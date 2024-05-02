@@ -35,3 +35,11 @@
 .step2 {
     background-color: lightcoral;
 }
+
+.step3 {
+    background-color: lightskyblue;
+}
+
+.hidden {
+    display: none;
+}
